@@ -1,0 +1,433 @@
+:root{
+--input-background-color:#f3f3f3
+
+
+}
+
+body{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:40px;
+    font-family:Manrope,Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+
+.logo-container{
+background-image: url(./image/logo-background.png);
+width: 375px;
+height: 812px;
+background-color:#FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container{
+width: 375px;
+height: 812px; 
+background-color:#fcfcfe ;
+padding: 0;
+display: flex; 
+justify-content:flex-start;
+flex-direction: column;
+gap:40px ;
+align-items: center;
+overflow: hidden;
+position: relative;
+}
+.container.third{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Time-netContainer{
+display: flex;
+width: 375px;
+align-items: center;
+gap: 229px;
+height: 50px;
+background-color:inherit;
+
+}
+
+.Time-netContainer h5{
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 16px;
+    margin-left: 24px;
+
+}
+     
+.btn{
+display: flex; 
+width: 327px;
+height: 46px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+color: #FBF5F0;
+background: var(--primary-10, #623ECA);
+cursor: pointer;
+border: none;
+}
+
+.svg-frame{
+display: flex;
+flex-direction: column;
+width: 327px;
+height: 327px;
+padding: 3px 3.68px 3.73px 5px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+background-color: rgb(245, 248, 248);
+
+}
+.text-div{
+width: 327px;
+
+}
+
+.text-div h1{
+color: var(--black-pri, #18171B);
+font-family: inherit;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+margin-bottom: 4px;
+margin-top: 0;
+}
+.text-div,p{
+ color: #757576;
+font-family: inherit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin-top: 4px;
+margin-bottom: 40px;
+}
+.back-Screen{
+display: flex;
+fill: #f8f8f8;
+margin-top: 209px;
+}
+.country-page-text{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+width: 327px;
+height: 80px;
+}
+.country-page-text h1{
+color: var(--black-pri, #18171B);
+font-family:inherit;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 48px */
+letter-spacing: -0.64px;
+margin-bottom: 0;
+}
+
+.country-page-text p{
+color: var(--black-sec, #757576);
+font-family: inherit;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+margin-top: 0;
+}
+.country-div{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+
+}
+.logo{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 24px;
+}
+
+.country-div span{
+ color: var(--text-title, #001B21);
+font-family:inherit;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; 
+}
+
+.arranged{
+display: flex;
+align-items: center;
+gap: 32px;
+justify-content: space-between;
+border-radius: 20px;
+background: #FCF6F7;
+width:327px;
+height: 80px;
+padding-left: 16px;
+}
+.arranged div{
+    display: flex;
+    align-content: center;
+    gap: 5px;
+
+
+}
+
+.country-div .nigeria{
+background-color:#F6FAF9;
+}
+.country-div .ghana{
+background-color:#FCF6F7;
+}
+.country-div .ivory{
+background-color:#FFF4E8;
+}
+.country-div .benin{
+background-color:#FFFAE5;;
+}
+
+.home-indicator-container{
+display: flex;
+align-self: flex-end;
+Width:375px;
+Height:34px;
+align-items: center;
+justify-content: center;
+margin-top: 80px;
+}
+
+.OTP-container .OTP-text{
+    width: 327px;
+    height: 104px;
+}
+
+.OTP-container .OTP-text h1{
+   font-family:inherit;
+   font-weight: 700;
+   font-size: 32px;
+}
+.OTP-container .OTP-text p{
+    width: 327px;
+    height:48px;
+     font-family:inherit;
+     margin-bottom: 0;
+     font-size: 16px;
+
+}
+
+.inputed-OTP-box{
+    display: flex;
+    width: 320px;
+    height: 96px;
+    flex-direction: column;
+    gap:32px;
+}
+.inputed-OTP-box .inputed-OTP-display{
+display: flex;
+justify-content: space-between;
+
+
+}
+.inputed-OTP-box .inputed-OTP-display .num-display{
+    height:40px;
+    width: 40px;
+    background-color:#F3F3F3 ;
+    border-radius: 8px;
+}
+
+.inputed-OTP-box .OTP-resend {
+    display: flex;
+}
+.inputed-OTP-box .OTP-resend p{
+    font-family:inherit;
+    margin-bottom: 0;
+}
+.inputed-OTP-box .OTP-resend :nth-child(2){
+    color:#623ECA ;
+}
+
+
+.OTP-container .number-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: inherit;
+    height: 320px;
+    margin-top: auto;
+    position: absolute;
+    top: 492px;
+}
+
+.OTP-container .number-container .num{
+height:72px;
+font-size: 30px;
+width:125px ;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+background-color: inherit;
+}
+.credentials-text{
+    width: 327px;
+    height:80px;
+}
+.credentials-text h1{
+   font-size: 32px; 
+   font-weight: 700;
+   font-family: inherit;
+}
+
+.credentials-text p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.credentials-form{
+    height: 296px;
+    width:327px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.credentials-form div input{
+width: 295px;
+height: 18px;
+border-radius: 10px;
+background-color: #F3F3F3;
+border: none;
+padding: 16px 14px;
+}
+
+.credentials-form div label{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: 21px;
+    color: #18171B;
+}
+
+.already-have-account{
+    display: flex;
+    position: absolute;
+    top: 728px;
+    gap: 2px;
+
+
+}
+.already-have-account :nth-child(2){
+    color:#623ECA ;
+    font-weight: 700;
+}
+
+.already-have-account p{
+    font-family: inherit;
+}
+
+
+.general-text{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+width: 327px;
+height: 80px;
+}
+
+.general-text h1{
+color: var(--black-pri, #18171B);
+font-family:inherit ;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 48px */
+letter-spacing: -0.64px;
+margin-bottom: 0;
+}
+.general-text p{
+color: var(--black-sec, #757576);
+font-family: inherit;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+margin-top: 0;
+}
+
+.surround-Email-box{
+    height: 347px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.Email-phone-no-div{
+    height: 261px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.Email-phone-no-div label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: inherit;
+    color:#18171B;
+}
+
+.Email-phone-no-div input{
+    height: 18px;
+    width: 295px;
+    padding:16px 14px;
+    border-radius: 10px;
+    background-color: var(--input-background-color);
+    border: none;
+}
+
+.Email-phone-no-div #cell-code{
+    display: inline-block;
+    border-radius: 10px;
+    width: 28px;
+    height: 18px;
+    padding:16px 14px;
+    margin-right:8px;
+    background-color: var(--input-background-color);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Email-phone-no-div #cell-code span{
+font-family: inherit;
+font-size:12px ;
+font-weight: 500;
+}
+.Email-phone-no-div #cell-number{
+    width: 227px;
+    height: 18px;
+    
+}
+.cell-code-holder{
+    display: flex;
+}
